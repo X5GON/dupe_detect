@@ -14,10 +14,14 @@ This repository carries the source code and instructions for the duplication det
 [comment]: <> (![img.png]&#40;img.png&#41;)
 [This](results_deuplicate_detection.csv) contains the results obtained using the above proposed method. This contains material IDs of all the documents with material IDs of their respective detected duplicates. This result was used to plot the following graph to analyse the result visually.
 
-![img_1.png](img_1.png) This interactive graph was used to evaluate the results produced by the above proposed method. Each dot represents a documents and clusters represent a set of duplicate documents.
+![img_1.png](img_1.png) 
+
+This interactive graph was used to evaluate the results produced by the above proposed method. Each dot represents a documents and clusters represent a set of duplicate documents.
+
+This graph can be generated using [graph_draw.py](src/Visualization/graph_draw.py) file. Also you can use the [ipython notebook](src/Visualization/duplication_graph.ipynb) for more interactive analysis which has the option to click on a node to open the respective document. 
 
 ### [This](https://docs.google.com/spreadsheets/d/1fI6JprYWbCgV5_EwoBrwkZ07jZ2v-MM5ukPkWoDpcJc/edit?usp=sharing) is the results of a manual evaluation done using the above obtained results
 
-## - TODO -
+## TODO
 - [ ] Write the script for the cron job to be run on the X5GON server to update duplicates of future OER materials.
 - [ ] Write the script to update the DB with a new table using [obtained results](results_deuplicate_detection.csv) 
