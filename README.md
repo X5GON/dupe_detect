@@ -20,7 +20,14 @@ This interactive graph was used to evaluate the results produced by the above pr
 
 This graph can be generated using [graph_draw.py](src/Visualization/graph_draw.py) file. Also you can use the [ipython notebook](src/Visualization/duplication_graph.ipynb) for more interactive analysis which has the option to click on a node to open the respective document. 
 
-### [This](https://docs.google.com/spreadsheets/d/1fI6JprYWbCgV5_EwoBrwkZ07jZ2v-MM5ukPkWoDpcJc/edit?usp=sharing) is the results of a manual evaluation done using the above obtained results
+
+## Datasets
+
+| Description | Link | Info
+------ | --- | -----|
+Results Dataset | [link]((results_deuplicate_detection.csv)) | This dataset contains the results obtained using the above proposed method. This contains material IDs of all the documents with material IDs of their respective detected duplicates
+Manually Evaluated Dataset | [link](https://docs.google.com/spreadsheets/d/1fI6JprYWbCgV5_EwoBrwkZ07jZ2v-MM5ukPkWoDpcJc/edit?usp=sharing) | This dataset contains manual evaluation done on the [above obtained results](results_deuplicate_detection)
+
 
 ## TODO
 - [ ] Write the script for the cron job to be run on the X5GON server to update duplicates of future OER materials.
